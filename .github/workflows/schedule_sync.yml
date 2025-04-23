@@ -6,7 +6,7 @@ on:
     # Runs every Wednesday at 12pm UTC
     #- cron: '0 12 * * 3'
     # Runs everyday at midday
-    - cron: '0 12 * * *'
+    - cron: '59 23 * * *'
 
 jobs:
   run_script:
